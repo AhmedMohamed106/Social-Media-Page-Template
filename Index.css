@@ -1,0 +1,98 @@
+/* Global styles */
+body {
+    background-color: #f4f4f4;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Left column */
+.left-column {
+    background-color: white;
+    padding: 20px;
+    width: 25%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-card {
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+.profile-img {
+    width: 50%;
+    border-radius: 50%;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-item {
+    padding: 10px;
+    text-decoration: none;
+    color: #17a2b8;
+    border-bottom: 1px solid #eee;
+}
+
+.menu-item:hover {
+    background-color: #f4f4f4;
+}
+
+/* Right column */
+.right-column {
+    background-color: white;
+    padding: 20px;
+    width: 75%;
+}
+
+.card {
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.skills .skill {
+    margin-bottom: 20px;
+}
+
+.skill p {
+    margin: 0;
+}
+
+.progress {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 5px;
+}
+
+.progress-bar {
+    background-color: #17a2b8;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .left-column, .right-column {
+        width: 100%;
+    }
+}
