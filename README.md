@@ -58,9 +58,6 @@ Contributions are welcome! If you have any suggestions for improvements or find 
 4. **Push to the branch:** `git push origin feature/your-feature-name`
 5. **Open a pull request.**
 
-## License
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
 ## Acknowledgements
 - [Bootstrap](https://getbootstrap.com/) for their powerful and flexible front-end framework.
 - [Font Awesome](https://fontawesome.com/) for their comprehensive icon set.
